@@ -38,7 +38,7 @@ resource "kubernetes_deployment" "breweries-demo" {
 
       spec {
         container {
-          image = "514680112291.dkr.ecr.eu-central-1.amazonaws.com/breweries:latest"
+          image = "961337772958.dkr.ecr.eu-central-1.amazonaws.com/breweries"
           name  = "breweries"
           resources {
             limits = {

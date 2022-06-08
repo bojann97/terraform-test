@@ -18,9 +18,9 @@ module "eks" {
     {
       name             = "ng1"
       iam_role_arn     = aws_iam_role.ng-role.arn
-      instance_types   = ["t2.medium"]
+      instance_type   = "t2.medium"
       desired_capacity = 1
-      max_capacity     = 3
+      max_capacity     = 1
       min_capacity     = 1
       subnets          = module.vpc.private_subnets
     }
