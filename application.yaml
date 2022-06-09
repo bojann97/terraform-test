@@ -4,14 +4,14 @@ metadata:
   name: argo-config-2022
   namespace: argo-cd
 spec:
-  project: defaault
+  project: default
   source: 
     repoURL: https://github.com/bojann97/terraform-test.git
     targetRevision: HEAD
     path: deployment.tf
   destination:
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: breweries
   syncPolicy:
     syncOptions:
       - CreateNamespaace = true
