@@ -17,4 +17,4 @@ spec:
       - CreateNamespaace = true
     automated:
       selfHeal: true
-      prune: true
+      prune: true 
