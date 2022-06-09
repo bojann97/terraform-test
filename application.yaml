@@ -11,7 +11,7 @@ spec:
     path: deployment.tf
   destination:
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: breweries
   syncPolicy:
     syncOptions:
       - CreateNamespaace = true
